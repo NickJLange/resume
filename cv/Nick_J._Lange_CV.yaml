@@ -1,0 +1,180 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.6/schema.json
+cv:
+  name: Nick J. Lange
+  headline: Platform Engineering Leader
+  location: New York
+  email: jobs@nicklange.family
+  phone:
+  website:
+  social_networks:
+    - network: GitHub
+      username: NickJLange
+    - network: LinkedIn
+      username: NickLange
+  sections:
+    summary:
+      - Platform Engineering Leader with deep expertise in electronic trading infrastructure, distributed systems, and global co-location deployments across six continents.
+      - Principal architect driving performance, platform selection, orchestration, security policy and compliance for specialized trading infrastructure.
+      - Hands-on experience with FMI/Exchange Co-Location at almost every major exchange globally, including many emerging markets.
+
+    experience:
+      - company: Morgan Stanley
+        position: Executive Director - Specialized Electronic Trading Infrastructure (SETI)
+        start_date: 2017-07
+        end_date: present
+        location: New York, NY
+        summary: The core of the role is understanding "Why do we do it that way?" in the context of latency, stability, applications, and cost and helping craft a vision for others to follow and help implement in partnership with our stakeholders.
+        highlights:
+          - 'Individual Contributor: POCs and Architecture across security and design'
+          - 'Leadership: Driving change across the platform to increase performance or decrease time to market, coaching others to their best performance'
+          - 'Team-of-Teams Global Engineering Manager: Servers, Peripherals, OS, Firmware, Cabling, Networks, Firewalls, Security and Infra Automation'
+          - Built large lab and hired team of teams in specific disciplines to modernize provisioning, management and operations of the plant
+          - 'Senior Management: Global portfolio escalation for deployment and operation to ensure we can run the business'
+
+      - company: Morgan Stanley MUFG
+        position: Vice President - Specialized Electronic Trading Infrastructure (SETI)
+        start_date: 2007-10
+        end_date: 2017-07
+        location: Japan
+        highlights:
+          - Working directly with the equity and market making desks, strats and Algo IT solving both low-level problems to market setup questions
+          - Parachuted in to fire-fight systematic complex technical outages across Research and Trading Operations using outage metrics to craft "Get Well" program
+          - Led multiple global virtual teams to set time-to-market records for deployment of co-location builds in Americas, EMEA and Asia
+          - Architected bespoke Cisco/Arista and Mellanox/Solarflare configurations for key clients in Asia to keep latency down
+          - Technical oversight and ownership of next generation infrastructure for Equity algo plant across firmwide network, instrumentation, security and server teams
+          - Researched/Identified/onboarded several key Asian carriers providing >50% latency improvements
+          - Built/operated R&D labs in New York including line management of 3 engineers to identify key latency metrics
+          - Drove platform deployment automation and optimization to reduce human touchpoints
+          - Built plant "collection" framework in Perl/Python/Splunk to streamline plant management across servers and switches
+          - Co-authored release and host configuration / rolling release and timing system strategy for electronic trading
+
+      - company: Morgan Stanley MUFG
+        position: Vice President - QA and Production Management Horizontal Engineering
+        start_date: 2007-10
+        end_date: 2017-07
+        location: Japan
+        summary: Horizontal role servicing the Asia/Japan Equities businesses on a team focused on reducing expert knowledge required to run a globally distributed plant via automation, frameworks and human processes.
+        highlights:
+          - Wrote global configuration parser for equities systems to answer key management questions like "What happens if we lose DC X?"
+          - Led complete infrastructure co-location builds at ASX, NSE, TSE and OSE
+          - Rationalized DC strategy for Sales and Trading across several Asia markets for Equity Management
+          - Designed and delivered next day trading solution to mitigate franchise/reputation risk for unnamed market
+          - Migrated non-prod infra to consolidated platform freeing up $300K for revenue generating projects
+          - Worked on capacity management framework to help equity management rationalize spending decisions
+          - Defined procedures and migrated common operational activities to offshore resources
+
+      - company: iTeam Companies
+        position: Consultant
+        start_date: 2007-08
+        end_date: 2007-10
+        location: USA
+        highlights:
+          - Rejoined ex-Fifth Third/USB colleagues to hire full-time replacement and manage IT Helpdesk services for financial startup while waiting on Japan Engineering Visa
+
+      - company: Japan Exchange and Teaching Program (JET)
+        position: Assistant Language Teacher (ALT)
+        start_date: 2004-07
+        end_date: 2007-07
+        location: Miyagi, Japan
+        highlights:
+          - Coached students through super regional finals of the All Japan English Speech Contest
+
+      - company: Fifth Third Bancorp
+        position: System Analyst III
+        start_date: 2002-07
+        end_date: 2004-07
+        location: USA
+        highlights:
+          - Created repeatable server and app installs via App RPMs and Kickstart to migrate Milwaukee WI Data Center to Grand Rapids, MI
+          - Designed and built one-click installer/uninstallers for internal applications
+          - Became co-network/security administrator of the Milwaukee WI Network
+          - Trained local development staff on both CVS and Clear Case
+
+      - company: Universal Savings Bank
+        position: Programmer/Intern
+        date: 'Jun 2000 - Sep 2001'
+        location: USA
+        highlights:
+          - Developed reporting systems for Customer Service using PHP, PERL, and C from MySQL and Tandem Non-Stop SQL database sources
+          - Deployed and administrated application servers on Windows 2000 and Linux
+
+      - company: M2 Technical Services (for Universal Savings Bank)
+        position: Temporary Staff
+        start_date: 1999-05
+        end_date: 1999-08
+        location: USA
+        highlights:
+          - Managed support operations including client billing and basic scripting
+          - Trained and supervised full-time replacement
+
+      - company: Bradley University Technology Service Center
+        position: Helpdesk Technician
+        start_date: 1997-08
+        end_date: 2000-05
+        location: USA
+        highlights:
+          - Unix and Windows phone/walk-up support technician
+
+    education:
+      - institution: Bradley University
+        area: Computer Science
+        degree: BS
+        start_date: 1997-08
+        end_date: 2001-05
+        location: Illinois, USA
+        highlights:
+          - '3.3 GPA (3.6 Major GPA). Dean''s list from Spring 1998'
+          - First place in Bradley's Robotic automation tournament
+          - 'Study Abroad: University of Malta (Sep 2000 - Jan 2001)'
+
+    skills:
+      - label: Physical Infra, OS and Middleware
+        details: Linux, Kerberos, Firewalls, F5, A10, DNS, TCP and Multicast Networking, Corvil, Cisco IOS, Arista EOS, Solarflare/Exablaze/Mellanox, Infoblox, Veritas VCS, AFS
+      - label: Performance
+        details: Testing combinations of software and hardware including NICs, FPGA, GPU, kernel, BIOS settings
+      - label: Analytics and Data
+        details: NiFi, Kafka, Python (Pandas, Jupyter), Splunk, Grafana
+      - label: Automation and Deployment
+        details: Ansible, Bash, Nomad, Autosys
+      - label: Security
+        details: CIS+ Benchmark, Qualys, Zeek, Red Team Pen Tests
+
+    innovation:
+      - bullet: Automated Global Firewall Management Platform
+      - bullet: Introduced Direct-to-Chip Liquid Cooling at scale
+      - bullet: DMZ/Control design for high-risk/complexity jurisdictions
+      - bullet: Built application discovery/configuration parser/normalize for plant management tooling
+      - bullet: 'Multi-Year Replatforming Architect: Federated Server Build System with industry-standard software distribution'
+      - bullet: 'Application Orchestration: Federated App Scheduling replacement with inhouse system and Nomad'
+
+    patents:
+      - bullet: '2025: Granular Network Segmentation - [U.S. Patent No. US12284157B1](https://patents.google.com/patent/US12284157B1/en)'
+
+    home_lab:
+      - bullet: Light ML/AI for Home Automation
+      - bullet: Private Home Automation with custom firmware (Tasmota, Zigbee, Thingio)
+      - bullet: Multi-Point VPN using Wireguard including VPN Phone Home with GCP/AWS and Digital Ocean
+      - bullet: Debian RPI Fleet / UTM Image Builder
+
+    languages:
+      - label: English
+        details: Native
+      - label: Japanese
+        details: Speaking/Reading Fluency
+      - label: French
+        details: Reading
+
+design:
+  theme: classic
+
+locale:
+  language: english
+
+settings:
+  current_date: '2026-01-05'
+  render_command:
+    typst_path: rendercv_output/Nick_J_Lange_CV.typ
+    pdf_path: rendercv_output/Nick_J_Lange_CV.pdf
+    markdown_path: rendercv_output/Nick_J_Lange_CV.md
+    html_path: rendercv_output/Nick_J_Lange_CV.html
+    png_path: rendercv_output/Nick_J_Lange_CV.png
